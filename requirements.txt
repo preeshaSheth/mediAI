@@ -1,0 +1,12 @@
+import pandas as pd
+from flask import Flask, request, jsonify
+from flask_cors import CORS
+from sklearn import tree
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.naive_bayes import GaussianNB
+from sklearn.preprocessing import LabelEncoder
+import sqlite3
+import React, { useState } from 'react';
+import axios from 'axios';
+import './App.css';
