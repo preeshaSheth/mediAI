@@ -1,70 +1,36 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Disease Prediction Web Application
+![Screenshot (228)](https://github.com/user-attachments/assets/08fb802b-cffa-4951-bb51-c514faff37a6)
 
-In the project directory, you can run:
 
-### `npm start`
+This project is a Flask-based web application designed to provide real-time disease predictions based on user-inputted symptoms. The primary aim is to ensure that more severe diseases receive attention first, thereby reducing potential calamities.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Machine Learning Model Integration:** Incorporates Decision Tree, Random Forest, K-Nearest Neighbors, and Naive Bayes models to deliver accurate and prioritized disease predictions.
 
-### `npm test`
+- **Cross-Origin Resource Sharing (CORS):** Implements CORS to enable secure communication across different domains, ensuring user data privacy and accessibility.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **SQLite Database Integration:** Efficiently stores and manages user predictions and data, ensuring data persistence and easy retrieval.
 
-### `npm run build`
+- **Data Preprocessing and Label Encoding:** Utilizes Pandas and Scikit-learn for preprocessing and encoding symptoms and diseases, optimizing data for machine learning models.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **User Input Validation:** Includes robust validation of user inputs to improve prediction accuracy and reliability.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Customizable Model Selection:** Allows users to choose from different predictive models, offering flexibility in the prediction process.
+   ![Screenshot (227)](https://github.com/user-attachments/assets/c45eb009-2bc9-426e-9bbe-87de32d5b74f)
+   ![Screenshot (229)](https://github.com/user-attachments/assets/8696d18d-de5d-477c-938f-83b1ff12c29b)
+   ![Screenshot (231)](https://github.com/user-attachments/assets/15f349c8-4a16-4eb7-bbf0-966d6fdd7d1b)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Technologies Used
 
-### `npm run eject`
+- **Backend:** Python, Flask
+- **Machine Learning:** Scikit-learn, Pandas
+- **Database:** SQLite
+- **API Integration:** RESTful APIs
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Project Aim
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The project is aimed at prioritizing the diagnosis of more severe diseases to ensure timely medical attention and reduce potential calamities.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
